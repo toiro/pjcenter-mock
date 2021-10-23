@@ -20,5 +20,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "npm.packageManager": "yarn",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "css.validate": false, // Disable css built-in lint
+  "stylelint.enable": true // Enable sytlelint
 }

@@ -13,7 +13,7 @@ const Hello: React.FC<Props> = (props) => {
   const { name } = props
   return (
     <div>
-      <h1 css={hello}>Hello {name}!</h1>
+      <h1 className="text-blue-600">Hello {name}!</h1>
     </div>
   )
 }
