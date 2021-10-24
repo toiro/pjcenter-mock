@@ -1,6 +1,7 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
   "eslint.format.enable": false,
   "editor.formatOnSave": true,
@@ -22,5 +23,6 @@
   "npm.packageManager": "yarn",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "css.validate": false, // Disable css built-in lint
-  "stylelint.enable": true // Enable sytlelint
+  "stylelint.enable": true, // Enable sytlelint
+  "tailwindCSS.validate": true // Tailwind CSSのDirectivesをLintする
 }
