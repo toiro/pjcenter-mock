@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.5.0",
+    "@netlify/classnames-template-literals": "^1.0.3",
     "css.gg": "^2.0.0",
     "extracted-loader": "^1.0.7",
     "file-loader": "^6.2.0",
@@ -52,7 +53,9 @@
     "next-transpile-modules": "^8.0.0",
     "postcss": "^8.3.11",
     "prettier": "^2.4.1",
+    "prettier-plugin-tailwind": "^2.2.12",
     "serve": "^12.0.1",
+    "stylelint": "^14.0.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended": "^6.0.0",
